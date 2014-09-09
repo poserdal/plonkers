@@ -1,4 +1,9 @@
 Plonkers::Application.routes.draw do
+  root "pages#home"
+  get "story" => "pages#story"
+  get "contact" => "pages#contact"
+  get "orders" => "pages#orders"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
