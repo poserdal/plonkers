@@ -1,0 +1,23 @@
+<!--cover page-->
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">The Mommy Box Co</h3>
+          <ul class="nav masthead-nav">
+            <li><%= link_to "Home", root_path %></li>
+            <li><%= link_to "Contact Us", contact_path %></li>
+            <li class="active"><%= link_to "Our Story", story_path %></li>         
+          </ul>
+        </div>
+      </div>
+      <div class="inner cover">
+      <br><br><br><br><br>
+        <%= render 'layouts/slides' %>
+      <br><br><br><br>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end of cover page-->
