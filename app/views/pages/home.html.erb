@@ -1,4 +1,36 @@
-<div class="container jumbotron">
-	<h1>Welcome to my app!</h1>
-	Click here to <%= link_to "Sign Up", "#", class: "btn btn-primary" %>
+<%= render 'layouts/header' %>
+<!--carousel-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://s3.amazonaws.com/dallinmckay/SiteIMG/seagull.jpg" alt="Delicious Popcorn">
+      <div class="carousel-caption">
+        <h2>Slide 1</h2>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://s3.amazonaws.com/dallinmckay/SiteIMG/Water_Plant.jpg" alt="A Plonker's Favorite">
+      <div class="carousel-caption">
+       SECOND SLIDE
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
 </div>
+<hr>
