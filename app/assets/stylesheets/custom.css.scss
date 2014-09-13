@@ -1,9 +1,10 @@
 @import 'bootstrap';
-
-
-$navbar-default-link-color:         #ecf0f1;
-$navbar-default-link-hover-color:   #e74c3c;
  
+.btn-primary{
+  background: #B80000;
+  border: 0px;
+}
+
 /*--------------------------------*/
 /*-- Navbar Edits ----------------*/
 /*--------------------------------*/
@@ -17,9 +18,8 @@ $navbar-default-link-hover-color:   #e74c3c;
   text-align: center;
   }
 
-  ul.nav a { color: #ecf0f1 !important; 
-  a:hover {color:#e74c3c !important;
-  }
+  ul.nav a { color: #ecf0f1 !important; }
+  ul.nav a:hover {color:#FFE680 !important;
   }
 
 
@@ -135,7 +135,7 @@ body {
 }
 body {
   text-align: center;
-  background-color:#f39c12;
+  background-color:#FFE680;
 }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
