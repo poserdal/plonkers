@@ -22,17 +22,6 @@
   ul.nav a:hover {color:#FFE680 !important;
   }
 
-
-/*--------------------------------*/
-/*-- Glyphicon CSS ---------------*/
-/*--------------------------------*/
-
-// Import the fonts
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url(glyph/glyphicons-halflings-regular.svg) format('svg');
-}
-
 // Catchall baseclass
 .glyphicon {
   position: relative;
@@ -58,12 +47,12 @@
 
 @font-face {
     font-family: 'kg_second_chances_sketchRg';
-    src: url('fonts/kgsecondchancessketch-webfont.eot');
-    src: url('fonts/kgsecondchancessketch-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/kgsecondchancessketch-webfont.woff2') format('woff2'),
-         url('fonts/kgsecondchancessketch-webfont.woff') format('woff'),
-         url('fonts/kgsecondchancessketch-webfont.ttf') format('truetype'),
-         url('fonts/kgsecondchancessketch-webfont.svg#kg_second_chances_sketchRg') format('svg');
+    src: font-url('fonts/kgsecondchancessketch-webfont.eot');
+    src: font-url('fonts/kgsecondchancessketch-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('fonts/kgsecondchancessketch-webfont.woff2') format('woff2'),
+         font-url('fonts/kgsecondchancessketch-webfont.woff') format('woff'),
+         font-url('fonts/kgsecondchancessketch-webfont.ttf') format('truetype'),
+         font-url('fonts/kgsecondchancessketch-webfont.svg#kg_second_chances_sketchRg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -71,12 +60,12 @@
 
 @font-face {
     font-family: 'kg_second_chances_solidRg';
-    src: url('fonts/kgsecondchancessolid-webfont.eot');
-    src: url('fonts/kgsecondchancessolid-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/kgsecondchancessolid-webfont.woff2') format('woff2'),
-         url('fonts/kgsecondchancessolid-webfont.woff') format('woff'),
-         url('fonts/kgsecondchancessolid-webfont.ttf') format('truetype'),
-         url('fonts/kgsecondchancessolid-webfont.svg#kg_second_chances_solidRg') format('svg');
+    src: font-url('fonts/kgsecondchancessolid-webfont.eot');
+    src: font-url('fonts/kgsecondchancessolid-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('fonts/kgsecondchancessolid-webfont.woff2') format('woff2'),
+         font-url('fonts/kgsecondchancessolid-webfont.woff') format('woff'),
+         font-url('fonts/kgsecondchancessolid-webfont.ttf') format('truetype'),
+         font-url('fonts/kgsecondchancessolid-webfont.svg#kg_second_chances_solidRg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -84,12 +73,12 @@
 
 @font-face {
     font-family: 'the_skinnyregular';
-    src: url('fonts/theskinny-webfont.eot');
-    src: url('fonts/theskinny-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/theskinny-webfont.woff2') format('woff2'),
-         url('fonts/theskinny-webfont.woff') format('woff'),
-         url('fonts/theskinny-webfont.ttf') format('truetype'),
-         url('fonts/theskinny-webfont.svg#the_skinnyregular') format('svg');
+    src: font-url('fonts/theskinny-webfont.eot');
+    src: font-url('fonts/theskinny-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('fonts/theskinny-webfont.woff2') format('woff2'),
+         font-url('fonts/theskinny-webfont.woff') format('woff'),
+         font-url('fonts/theskinny-webfont.ttf') format('truetype'),
+         font-url('fonts/theskinny-webfont.svg#the_skinnyregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -97,12 +86,12 @@
 
 @font-face {
     font-family: 'the_skinnybold';
-    src: url('fonts/theskinny-bold-webfont.eot');
-    src: url('fonts/theskinny-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/theskinny-bold-webfont.woff2') format('woff2'),
-         url('fonts/theskinny-bold-webfont.woff') format('woff'),
-         url('fonts/theskinny-bold-webfont.ttf') format('truetype'),
-         url('fonts/theskinny-bold-webfont.svg#the_skinnybold') format('svg');
+    src: font-url('fonts/theskinny-bold-webfont.eot');
+    src: font-url('fonts/theskinny-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('fonts/theskinny-bold-webfont.woff2') format('woff2'),
+         font-url('fonts/theskinny-bold-webfont.woff') format('woff'),
+         font-url('fonts/theskinny-bold-webfont.ttf') format('truetype'),
+         font-url('fonts/theskinny-bold-webfont.svg#the_skinnybold') format('svg');
     font-weight: normal;
     font-style: normal;
 
